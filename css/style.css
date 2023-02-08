@@ -1,0 +1,138 @@
+/*SECTION_1_____________________________________________________________________*/
+
+@font-face {
+  font-family: Wav;
+  src: url('../fonts/21154.otf');
+}
+@font-face {
+  font-family: Reg;
+  src: url('../fonts/reg.ttf');
+}
+
+/*SECTION_2_____________________________________________________________________*/
+
+
+header {
+	height: 10vh;
+	background-color: #313030;
+/*	background-image: url('../images/header_bg.png');*/
+}
+
+footer {
+	display: flex;
+	height: 8vh;
+	background-color: #313030;
+	align-items: center;
+	justify-content: center;
+	font-family: Wav;
+	font-size: 1.5vw;
+	color: #f6f2f2;
+}
+
+footer a {
+	color: #ff2d2d;
+}
+
+footer a:hover {
+	color: #921911;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.3vw;
+    font-family: Reg;
+}
+
+button:hover {
+	background-color: #0072FF;
+}
+
+.space-div {
+	min-width: 1vw;
+}
+
+
+/*SECTION_4_____________________________________________________________________*/
+
+#page {
+	display: flex;
+	min-height: 100vh;
+	font-family: Reg;
+	font-size: 1.5vw;
+}
+
+#page h1 {
+	text-align: center;
+}
+
+.sides {
+	width: 100%;
+	background-color: #f6f2f1;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+/*	FLEX
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*	background-image: url('../images/header_bg.png');*/
+}
+
+#midle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	min-width: 50vw;
+/*	background-color: #414140;*/
+}
+
+/*SECTION_4_____________________________________________________________________*/
+
+.main_form {
+	display: block;
+	justify-content: center;
+	width: 40vw;
+	padding: 32px;
+	border-radius: 10px;
+	box-shadow: 0 4px 16px #ccc;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#fnew {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 20vw;
+	background-color: transparent;
+	margin-bottom: 32px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.form_title{
+	font-size: 2vw;
+	margin-top: 0px;
+  margin-bottom: 32px;
+}
